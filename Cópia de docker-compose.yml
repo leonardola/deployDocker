@@ -1,9 +1,0 @@
-php:
-  build: ./
-  ports:
-   - "80:80"
-   - "443:443"
-  volumes:
-   - ./src:/var/www/html
-  environment:
-    XDEBUG_CONFIG: remote_host=192.168.1.64

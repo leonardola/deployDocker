@@ -1,10 +1,48 @@
-php:
-  build: ./
-  ports:
-   - "80:80"
-   - "443:443"
-  volumes:
-   - ./src/:/var/www/
-   - ./logs/:/var/log/apache2/
-  environment:
-    XDEBUG_CONFIG: remote_host=192.168.1.64
+version: '2'
+
+services:
+  php:
+    build: ./
+    ports:
+     - "80:80"
+     - "443:443"
+    volumes:
+     - /var/www/blog/src
+     - /var/www/blog/app/config
+     - /var/www/blog/web
+     - ./logs/:/var/log/apache2/
+    environment:
+      XDEBUG_CONFIG: remote_host=192.168.1.64
+  bg-sync-src:
+    image: cweagans/bg-sync
+    volumes:
+      - ./src/blog/src:/source
+    volumes_from:
+      - php
+    environment:
+      - SYNC_DESTINATION=/var/www/blog/src
+      - SYNC_MAX_INOTIFY_WATCHES=40000
+      - SYNC_VERBOSE=1
+    privileged: true
+  bg-sync-config:
+    image: cweagans/bg-sync
+    volumes:
+      - ./src/blog/app/config/:/source
+    volumes_from:
+      - php
+    environment:
+      - SYNC_DESTINATION=/var/www/blog/app/config
+      - SYNC_MAX_INOTIFY_WATCHES=40000
+      - SYNC_VERBOSE=1
+    privileged: true
+  bg-sync-web:
+    image: cweagans/bg-sync
+    volumes:
+      - ./src/blog/web:/source
+    volumes_from:
+      - php
+    environment:
+      - SYNC_DESTINATION=/var/www/blog/web
+      - SYNC_MAX_INOTIFY_WATCHES=40000
+      - SYNC_VERBOSE=1
+    privileged: true

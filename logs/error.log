@@ -83,3 +83,57 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Thu Dec 15 16:50:38.946097 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.14 OpenSSL/1.0.1t configured -- resuming normal operations
 [Thu Dec 15 16:50:38.946124 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Thu Dec 15 16:51:22.689202 2016] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00112: Warning: DocumentRoot [/var/www/blog/web] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 17:43:00.397112 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 17:43:00.397665 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/blog/web] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 17:46:25.884799 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 17:46:25.885407 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/blog/web] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 17:47:27.248468 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 17:47:27.248973 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/blog/web] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 17:53:35.557057 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 17:53:35.557576 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/blog/web] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 17:59:36.328993 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 17:59:36.329562 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Dec 15 17:59:57.531913 2016] [autoindex:error] [pid 8] [client 172.22.0.1:44630] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+AH00112: Warning: DocumentRoot [/var/www/blog/web] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 18:01:14.292487 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 18:01:14.293036 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Dec 15 18:01:22.780123 2016] [autoindex:error] [pid 8] [client 172.22.0.1:44654] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Thu Dec 15 18:01:23.658448 2016] [autoindex:error] [pid 8] [client 172.22.0.1:44654] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 18:03:28.281042 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 18:03:28.281582 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 18:12:30.079792 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 18:12:30.080496 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Dec 15 18:45:53.383648 2016] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 18:56:22.683937 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 18:56:22.684697 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 19:05:11.535978 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 19:05:11.536474 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Dec 15 19:08:00.809185 2016] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 19:08:02.850266 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 19:08:02.850781 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 19:10:47.419034 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 19:10:47.419614 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 19:12:25.797968 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 19:12:25.799554 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 15 19:15:41.793509 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.13 OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Dec 15 19:15:41.794030 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Dec 15 19:17:02.446570 2016] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down

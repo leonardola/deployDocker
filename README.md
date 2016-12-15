@@ -16,7 +16,7 @@ https://docs.docker.com/compose/install/
 
 `sudo docker-compose up`
 
-- adicione ao arquivo hosts da sua maquina
+- adicione ao arquivo hosts da sua maquina:
 
 `127.0.0.1  modelo.photobookfinal.com`
 

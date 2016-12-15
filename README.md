@@ -9,7 +9,10 @@ https://docs.docker.com/compose/install/
 
 - clone este repositório
 - desative o apache ou qualquer aplicativo utilizando a porta 80 e 443
-- dentro da pasta clonada digite:
+- entre na pasta clonada
+- dentro da pasta src cole a pasta blog
+- remova os folders app/cache e app/logs
+- digite:
 
 `sudo docker-compose build`
 

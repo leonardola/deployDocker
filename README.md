@@ -19,5 +19,5 @@ https://docs.docker.com/compose/install/
 `127.0.0.1  modelo.photobookfinal.com`
 
 `127.0.0.1  photobookfinal.com`
-- abra o navegado em modelo.photobookfinal.com
+- abra o navegador em modelo.photobookfinal.com
 - pronto

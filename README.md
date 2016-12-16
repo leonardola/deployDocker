@@ -24,3 +24,5 @@ https://docs.docker.com/compose/install/
 `127.0.0.1  photobookfinal.com`
 - abra o navegador em modelo.photobookfinal.com
 - pronto
+- crie um alias para um ip estatico:
+`sudo ifconfig lo0 alias 10.254.254.254`

@@ -7,4 +7,4 @@ php:
    - ./src/:/var/www/
    - ./logs/:/var/log/apache2/
   environment:
-    XDEBUG_CONFIG: remote_host=192.168.1.64
+    XDEBUG_CONFIG: remote_host=10.254.254.254

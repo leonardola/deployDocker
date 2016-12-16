@@ -1,1 +1,4 @@
 src/blog
+.idea
+.DS_Store
+logs

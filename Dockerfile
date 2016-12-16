@@ -1,6 +1,12 @@
 FROM php:7.0-apache
-#RUN apt-get update && apt-get install -y php-apc php-curl php-imap php-gd libapache2-mod-php php-xml php-zip
 COPY config/php.ini /usr/local/etc/php/
+RUN yes | pecl install xdebug \
+    && echo "zend_extension=$(find /usr/local/lib/php/extensions/ -name xdebug.so)" > /usr/local/etc/php/conf.d/xdebug.ini \
+    && echo "xdebug.remote_enable=on" >> /usr/local/etc/php/conf.d/xdebug.ini \
+    && echo "xdebug.remote_autostart=off" >> /usr/local/etc/php/conf.d/xdebug.ini \
+    && echo "xdebug.idekey=\"intellij\"" >> /usr/local/etc/php/conf.d/xdebug.ini \
+    && echo "xdebug.remote_port=9000" >> /usr/local/etc/php/conf.d/xdebug.ini \
+	&& echo "xdebug.max_nesting_level=200" >> /usr/local/etc/php/conf.d/xdebug.ini
 RUN a2enmod rewrite
 RUN a2enmod headers
 RUN a2enmod ssl
@@ -14,5 +20,5 @@ RUN apt-get install -y libc-client-dev libkrb5-dev && rm -r /var/lib/apt/lists/*
 RUN docker-php-ext-configure imap --with-kerberos --with-imap-ssl \
     && docker-php-ext-install imap
 COPY src/ /var/www
-COPY certificado /var/www/blog/
+COPY certificado/ /var/www/blog/certificado
 COPY config/apache/ /etc/apache2/sites-enabled/

@@ -22,3 +22,4 @@ RUN docker-php-ext-configure imap --with-kerberos --with-imap-ssl \
 COPY src/ /var/www
 COPY certificado/ /var/www/blog/certificado
 COPY config/apache/ /etc/apache2/sites-enabled/
+RUN chmod 755 -R /var/www/html/phpMyAdmin/

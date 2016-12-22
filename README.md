@@ -6,7 +6,7 @@ https://docs.docker.com/engine/installation/
 - instale o docker-compose(para linux):
 https://docs.docker.com/compose/install/
 - clone este repositório
-- desative o apache ou qualquer aplicativo utilizando a porta 80 e 443
+- desative o apache ou qualquer aplicativo utilizando a porta 80, 443 e 3306
 - entre na pasta clonada
 - adicione ao arquivo hosts da sua maquina:
 

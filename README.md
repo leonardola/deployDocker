@@ -17,14 +17,17 @@ https://docs.docker.com/compose/install/
 `127.0.0.1  photobookfinal.com`
 
 - crie um alias para um ip estatico (para mac):
+
 `sudo ifconfig lo0 alias 10.254.254.254`
 
-- crie um alias para um ip estatico (para mac):
+- crie um alias para um ip estatico (para alguns linux):
+
 `sudo ifconfig eth0 alias 10.254.254.254`
 
 ## Para iniciar o banco ##
 - entre na pasta database
 - digite:
+
 `sudo docker-compose build`
 
 `sudo docker-compose up`

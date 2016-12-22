@@ -11,7 +11,9 @@ https://docs.docker.com/compose/install/
 - adicione ao arquivo hosts da sua maquina:
 
 `127.0.0.1  modelo.photobookfinal.com`
+
 `127.0.0.1  fotogea.photobookfinal.com`
+
 `127.0.0.1  photobookfinal.com`
 
 - crie um alias para um ip estatico (para mac):
@@ -24,6 +26,7 @@ https://docs.docker.com/compose/install/
 - entre na pasta database
 - digite:
 `sudo docker-compose build`
+
 `sudo docker-compose up`
 
 ## Para iniciar o blog ##
@@ -33,6 +36,7 @@ https://docs.docker.com/compose/install/
 - digite:
 
 `sudo docker-compose build`
+
 `sudo docker-compose up`
 
 - abra o navegador em modelo.photobookfinal.com

@@ -10,9 +10,9 @@ https://docs.docker.com/compose/install/
 - entre na pasta clonada
 - adicione ao arquivo hosts da sua maquina:
 
-`127.0.0.1  modelo.photobookfinal.com
-127.0.0.1  fotogea.photobookfinal.com
-127.0.0.1  photobookfinal.com`
+`127.0.0.1  modelo.photobookfinal.com`
+`127.0.0.1  fotogea.photobookfinal.com`
+`127.0.0.1  photobookfinal.com`
 
 - crie um alias para um ip estatico (para mac):
 `sudo ifconfig lo0 alias 10.254.254.254`
@@ -23,8 +23,8 @@ https://docs.docker.com/compose/install/
 ## Para iniciar o banco ##
 - entre na pasta database
 - digite:
-`sudo docker-compose build
-sudo docker-compose up`
+`sudo docker-compose build`
+`sudo docker-compose up`
 
 ## Para iniciar o blog ##
 - entre na pasta web
@@ -32,8 +32,8 @@ sudo docker-compose up`
 - remova os folders app/cache e app/logs do blog
 - digite:
 
-`sudo docker-compose build
-sudo docker-compose up`
+`sudo docker-compose build`
+`sudo docker-compose up`
 
 - abra o navegador em modelo.photobookfinal.com
 - pronto

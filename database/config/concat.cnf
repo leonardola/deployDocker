@@ -1,0 +1,4 @@
+[mysqld]
+group_concat_max_len=15360
+
+sql_mode=""

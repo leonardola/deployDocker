@@ -16,13 +16,18 @@ https://docs.docker.com/compose/install/
 
 `127.0.0.1  photobookfinal.com`
 
+- crie um alias para um ip estatico (para alguns linux):
+
+`sudo ifconfig eth0 alias 10.254.254.254`
+
 - crie um alias para um ip estatico (para mac):
 
 `sudo ifconfig lo0 alias 10.254.254.254`
 
-- crie um alias para um ip estatico (para alguns linux):
-
-`sudo ifconfig eth0 alias 10.254.254.254`
+# configurações especiais para mac (resolve problema de lentidão) #
+- crie um docker-machine conforme este link: https://docs.docker.com/machine/get-started/
+- lembre-se de dar o comando `docker-machine env default` e `eval "$(docker-machine env default)"` em cada nova aba ou janela do terminal
+- instale o docker-machine-nfs conforme este link: https://github.com/adlogix/docker-machine-nfs
 
 ## Para iniciar o banco ##
 - entre na pasta database

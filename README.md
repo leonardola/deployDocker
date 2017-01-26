@@ -29,6 +29,7 @@ https://docs.docker.com/compose/install/
 - siga o tutorial: https://github.com/EugenMayer/docker-sync/wiki/1.-Installation
 - execute com 
 `docker-sync-stack start`
+
 ## Para iniciar o banco ##
 - entre na pasta database
 - digite:

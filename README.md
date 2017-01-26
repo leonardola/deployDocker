@@ -25,10 +25,10 @@ https://docs.docker.com/compose/install/
 `sudo ifconfig lo0 alias 10.254.254.254`
 
 # configurações especiais para mac (resolve problema de lentidão) #
-- crie um docker-machine conforme este link: https://docs.docker.com/machine/get-started/
-- lembre-se de dar o comando `docker-machine env default` e `eval "$(docker-machine env default)"` em cada nova aba ou janela do terminal
-- instale o docker-machine-nfs conforme este link: https://github.com/adlogix/docker-machine-nfs
-
+- faça checkout para o branch mac
+- siga o tutorial: https://github.com/EugenMayer/docker-sync/wiki/1.-Installation
+- execute com 
+`docker-sync-stack start`
 ## Para iniciar o banco ##
 - entre na pasta database
 - digite:

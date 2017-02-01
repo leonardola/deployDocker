@@ -18,7 +18,7 @@ https://docs.docker.com/compose/install/
 
 - crie um alias para um ip estatico (para alguns linux):
 
-`sudo ifconfig eth0 alias 10.254.254.254`
+`ifconfig eth0:0 10.254.254.254 up`
 
 - crie um alias para um ip estatico (para mac):
 

@@ -19,7 +19,5 @@ RUN docker-php-ext-install pdo_mysql
 RUN apt-get install -y libc-client-dev libkrb5-dev && rm -r /var/lib/apt/lists/*
 RUN docker-php-ext-configure imap --with-kerberos --with-imap-ssl \
     && docker-php-ext-install imap
-COPY src/ /var/www
 COPY certificado/ /var/www/blog/certificado
 COPY config/apache/ /etc/apache2/sites-enabled/
-RUN chmod 755 -R /var/www/html/phpMyAdmin/
